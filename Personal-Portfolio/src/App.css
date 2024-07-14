@@ -18,25 +18,20 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.card{
+  border-radius: 12px;
+  box-shadow: 0 0 3px #b1b2b2aa;
+  background: white;
+  transition: all 0.15s linear;
+  min-width: 274px;
 }
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.card:hover{
+  scale: 1.05;
+  box-shadow: 5px 5px 15px #b1b2b2aa;
 }
