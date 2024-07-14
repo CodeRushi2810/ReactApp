@@ -49,6 +49,13 @@ function App() {
         description="Vite is used to power up react library" 
         ratings="4/5" 
       />
+      <Card 
+        title="Next" 
+        logourl={reactLogo} 
+        logoclass="logo react" 
+        description="Vite is used to power up react library" 
+        ratings="5/5" 
+      />
     </div>
   );
 }
